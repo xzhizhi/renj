@@ -19,6 +19,7 @@ public class Demo02 {
                 ++rk;
             }
             // 第 i 到 rk 个字符是一个极长的无重复字符子串
+            //我只是看看git命令
             ans = Math.max(ans, rk - i + 1);
         }
         return ans;
